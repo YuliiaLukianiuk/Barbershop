@@ -290,11 +290,6 @@ input[type="radio"].visually-hidden {
   margin-bottom: 9px;
   margin-left: 15px;
 }
-.appointment-form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 .appointment-item input {
   box-sizing: border-box;
   width: 140px;
@@ -305,6 +300,11 @@ input[type="radio"].visually-hidden {
   font: inherit;
   background-color: transparent;
   border: 2px solid #000000;
+}
+.appointment-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .appointment .button {
   width: 100%;
